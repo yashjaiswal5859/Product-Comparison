@@ -3,7 +3,7 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCzZAWCBKP83pl8Ay9j9aoIgKV8TBv6d9Y",
+    apiKey: "",
     authDomain: "chatting-40f48.firebaseapp.com",
     databaseURL: "https://chatting-40f48-default-rtdb.asia-southeast1.firebasedatabase.app",
     projectId: "chatting-40f48",
