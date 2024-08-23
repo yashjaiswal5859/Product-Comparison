@@ -1,0 +1,12 @@
+{
+  "rules": {
+    ".read": "auth != null", // Allow read access only to authenticated users
+    ".write": "auth != null", // Allow write access only to authenticated users
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid", // Allow each user to read their own data
+        ".write": "$uid === auth.uid" // Allow each user to write their own data
+      }
+    }
+  }
+}
